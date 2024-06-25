@@ -8,3 +8,6 @@ cd scripts
 cd ../build
 cmake .. -DXMRIG_DEPS=scripts/deps
 make -j$(nproc)
+mkdir -p ../miner
+cp ./xmrig ../miner
+cd ../miner
